@@ -46,7 +46,6 @@ window.addEventListener("load", ()=>{
             const contentful = await client.getEntries();
 
             products = contentful;
-            console.log(products)
             if(window.location.pathname === "/index.html"){ //Show The Featured Products Only
                 showFeatured();
             }
