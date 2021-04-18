@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | ConfortDz</title>
+    <link rel="stylesheet" href="styles/product.css">
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--nav-->
+        <nav>
+            <div class="nav-center">
+                <!--nav-links-->
+                <ul class="nav-links">
+                    <li>
+                        <a href="index.html" class="link">Home</a>
+                        <span></span>
+                    </li>
+                    <li>
+                        <a href="products.html" class="link">Products</a>
+                        <span></span>
+                    </li>
+                    <li>
+                        <a href="about.html" class="link">About</a>
+                        <span></span>
+                    </li>
+                </ul>
+                <!--logo-->
+                <img src="assets/logo-dark.svg" alt="logo" class="logo">
+                <!-- cart icon -->
+                <div class="toggle-container">
+                    <div class="shoping-cart">
+                        <img src="assets/cart-dark.svg" alt="shoping-cart">
+                        <span class="item-count">0</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="hero">
+        <div class="hero-center">
+            <h2 class="page-title">Home / Products</h2>
+        </div>
+    </section>
+
+    <!-- Side Bar -->
+    <aside class="side-bar">
+        <img src="assets/close.svg" alt="close" class="close">
+        <h2 class="your-bag">your bag</h2>
+        <div class="cart-items">
+            
+        </div>
+        <footer>
+            <p class="total-text">total: <span class="total-price">$0.00</span> </p>
+            <button class="checkout-btn">checkout</button>
+        </footer>
+    </aside>
+
+    <section class="products">
+        <article class="filters">
+            <div class="filter-container">
+                <input type="text" name="search" class="search-box" placeholder="Search...">
+                <div class="company-filter">
+                    <h4>Company</h4>
+                    <ul class="companies">
+                        <li>All</li>
+                        <li>Ikea</li>
+                        <li>Marcos</li>
+                        <li>Caressa</li>
+                        <li>Liddy</li>
+                    </ul>
+                </div>
+                <div class="price-filter">
+                    <h4>Price</h4>
+                    <div class="range-container">
+                        <input type="range" name="price-range" class="price-range" min="0" max="100" value="0">
+                    </div>
+                    <p>Value: $<span class="range-value">0</span></p>
+                </div>
+            </div>
+        </article>
+        <article class="products-wrapper">
+            
+        </article>
+    </section><!-- Contentful -->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <!-- My script -->
+    <script src="script/script.js"></script>
+</body>
+</html>

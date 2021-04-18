@@ -1,0 +1,15 @@
+ <style>
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Kaushan+Script&family=Mali:wght@300;400;500;600;700&family=Montserrat:wght@200;300;400;500;600&family=Rancho&display=swap');
+</style>
+
+CSS rules to specify families
+
+    font-family: 'Amita', cursive;
+
+    font-family: 'Kaushan Script', cursive;
+
+    font-family: 'Mali', cursive;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Rancho', cursive;
